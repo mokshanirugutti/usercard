@@ -1,13 +1,13 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.profileImage{
+    border-radius : 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    transition: border-radius 0.3s ease-in-out;
+    
+
+}
+.profileImage:hover {
+    border-radius: 31% 41% 35% 34% / 26% 28% 35% 31% ;
 }
